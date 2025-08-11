@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+instance/
+.env
+model.pkl
+vectorizer.pkl
+txt_sentoken

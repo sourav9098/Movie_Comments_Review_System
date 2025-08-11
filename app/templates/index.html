@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Review Sentiment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Movie Review Sentiment Analysis</h1>
+        <form action="/predict" method="POST">
+            <textarea name="review" placeholder="Type your movie review here..." required></textarea>
+            <button type="submit">Predict Sentiment</button>
+        </form>
+    </div>
+</body>
+</html>
